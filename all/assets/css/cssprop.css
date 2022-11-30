@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+}
+header{
+    background-color: brown;
+    height: 50px;
+    width: 100%;
+}
+.flex-container{
+    display: flex;
+}
+.header-left{
+    flex: 50%;
+}
+.header-right{
+    flex: 50%;
+}
+header ul li{
+    display: inline;
+    margin-left: 40px;
+}
+header ul li a{
+    color: rgb(112, 216, 176);
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav{
+    background-color: aquamarine;
+}
+.flex-container2{
+    display: flex;
+}
+.logo{
+    text-align: center;
+    flex: 20%;
+}
+.navi{
+flex: 80%;
+}
+nav ul li{
+    display: inline;
+    margin-left: 80px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    transition: 2s all;
+}
+nav ul li a:hover{
+    color: white;
+    font-size: 25px;
+    background-color: rgb(13, 83, 83);
+    text-decoration: underline;
+}
+header ul li a:hover{
+    color: black;
+    font-size: bold;
+    text-decoration: underline;
+}
+
